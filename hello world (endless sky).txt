@@ -1,0 +1,15 @@
+# For the Endless Sky data format (https://github.com/endless-sky/endless-sky)
+
+mission "Hello World!"
+	job
+	repeat
+	name "Hello World!"
+	description `Hello World!`
+	on offer
+		dialog `Hello World!`
+		conversation
+			`Hello World!`
+	on accept
+		dialog `Hello World!`
+		conversation
+			`Hello World!`
